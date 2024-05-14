@@ -1,22 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Myslider from "./Myslider";
+import MyRGBPanel from "./MyRGBPanel";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          資工三甲 陳聖允 5B0G0011 2024/05/01
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Hello React!</h1>
+        <h2>5B0G0011 陳聖允</h2>
+        <MyRGBPanel />
       </header>
     </div>
   );
